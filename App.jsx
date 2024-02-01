@@ -1,12 +1,20 @@
 import { StyleSheet, Text, View } from 'react-native'
 import { StatusBar } from 'expo-status-bar';
 import React from 'react'
+import Book from './components/Book';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <StatusBar style="auto" hidden={true} />
     </View>
   );
 }
@@ -19,6 +27,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
+  }
 });
 
